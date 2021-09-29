@@ -1,0 +1,182 @@
+/* #2196F3* основной голубой акцент */
+/* #212121 основной цвет текста */
+/* #757575 вспомагательный цвет текста */
+/* #2F303A цвет залики первый */
+/* #F5F4FA  цвет залиски второй*/
+/* Raleway 700 шрифт лого*/
+/* Roboto 400,500,700,900 основной шрифт */
+:root {
+  --accent-color: #2196f3;
+  --primary-color: #ffffff;
+  --first-text-color: #212121;
+  --second-text-color: #757575;
+  --third-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--first-text-color);
+
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  color: #000000;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo-studio {
+  color: var(--primary-color);
+}
+
+.list {
+  list-style: none;
+}
+.decoration {
+  text-decoration: none;
+}
+
+.site-nav a {
+  color: var(--first-text-color);
+
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.auth-nav a {
+  color: var(--second-text-color);
+
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.site-nav a:hover,
+.site-nav a:focus,
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--accent-color);
+}
+.hero {
+  letter-spacing: 0.06em;
+}
+.hero,
+.footer {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--primary-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.section-specificity {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.section p {
+  color: var(--second-text-color);
+}
+
+.section-paragraph {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.section-family {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.section-profession {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.section h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.command,
+.filter {
+  background-color: var(--third-color);
+}
+.filter {
+  color: var(--first-text-color);
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+}
+.filter:hover,
+.filter:focus {
+  color: var(--primary-color);
+  background-color: var(--accent-color);
+}
+.example h2 {
+  color: var(--first-text-color);
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.example p {
+  color: var(--second-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.adress {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.72;
+}
+.adress p {
+  color: var(--primary-color);
+}
+.adress a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.adress a:hover,
+.adress a:focus {
+  color: var(--accent-color);
+}
