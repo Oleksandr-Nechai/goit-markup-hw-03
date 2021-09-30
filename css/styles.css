@@ -342,6 +342,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 30px 0;
+  background-color: #ffffff;
 }
 
 .command-description h3 {
